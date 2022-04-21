@@ -13,6 +13,7 @@
   <div class="text">
     <div>
       <h1>Rishub Kumar</h1>
+      <p id="flex">IDK</p>
       <p>I can help you build and break your software.</p>
       <p>buzzwords: [python, c/c++, js, go, php, html/css]</p>
     </div>
@@ -22,6 +23,23 @@
       <a href="mailto:itsrishub@gmail.com">contact</a>
     </div>
   </div>
+<script>
+  var example = ['Expect the unexpected!', 'I play with kernals.', 'Have you seen my penguin?', 'Serial coder.'];
 
+  textSequence(0);
+  function textSequence(i) {
+
+      if (example.length > i) {
+          setTimeout(function() {
+              document.getElementById("flex").innerHTML = example[i];
+              textSequence(++i);
+          }, 1000);
+
+      } else if (example.length == i) {
+          textSequence(0);
+      }
+
+    }
+</script>
 
 </body></html>
