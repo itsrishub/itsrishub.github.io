@@ -24,7 +24,7 @@
     </div>
   </div>
 <script>
-  var example = ['Expect the unexpected!', 'I play with kernals.', 'Have you seen my penguin?', 'Serial coder.'];
+  var example = ['Expect the unexpected!', 'I play with kernals.', 'Have you seen my penguin?', 'Serial coder.', 'fuzzing my code..'];
 
   textSequence(0);
   function textSequence(i) {
@@ -33,7 +33,7 @@
           setTimeout(function() {
               document.getElementById("flex").innerHTML = example[i];
               textSequence(++i);
-          }, 1000);
+          }, 2000);
 
       } else if (example.length == i) {
           textSequence(0);
