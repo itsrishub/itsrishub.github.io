@@ -23,19 +23,12 @@ entries:
   #     show_more_text: See more posts...
   #     show_more_url: example2-archive.html
 
-  - title: rss
-    url: feed.xml
+  # - title: rss
+  #   url: feed.xml
   
   - title: social
     entries:
-      - title: twitter/x
-        url: https://twitter.com/iamrishub
-      - title: linkedin
-        url: https://www.linkedin.com/in/itsrishub
-      - title: github
-        url: https://github.com/itsrishub
-      - title: email
-        url: mailto:itsrishub@gmail.com
+      - title: "<a href='https://twitter.com/iamrishub'>twitter/x</a> | <a href='https://www.linkedin.com/in/itsrishub'>linkedin</a> | <a href='https://github.com/itsrishub'>github</a> | <a href='mailto:itsrishub@gmail.com'>email</a>"
         # entries:
         #   - title: with subsubitems
         #   - title: example page
