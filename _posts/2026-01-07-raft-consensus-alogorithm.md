@@ -1,6 +1,6 @@
 ---
 layout: post
-category: alsorithms 
+category: algorithms 
 ---
 
 Raft is a **consensus algorithm** designed to help a group of machines agree on the same sequence of actions (a **log**) even if some machines fail. It’s widely used in systems like **distributed databases**, **key-value stores**, and **Raft storage**.
