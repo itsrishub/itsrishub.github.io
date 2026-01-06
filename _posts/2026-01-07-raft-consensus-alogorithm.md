@@ -168,5 +168,3 @@ Leader  --->  Follower
 * All writes go through leader
 * Logs are replicated and committed safely
 * Designed to be **simple and predictable**
-
-If you want, I can next explain:
