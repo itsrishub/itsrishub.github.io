@@ -58,7 +58,7 @@ At any time, **there is at most one leader**.
 
 ## 4 Log Replication (How Data Is Safely Written)
 
-![Image](https://www.researchgate.net/publication/358228089/figure/fig5/AS%3A1127352075583498%401645793088604/The-process-of-Raft-log-replication.png)
+![Image](/images/raft.png)
 
 ![Image](https://miro.medium.com/v2/resize%3Afit%3A1400/1%2AqC8d8hu2LjIY_sH6vwODdQ.png)
 
